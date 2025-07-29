@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Luckiest Guy';
+    src: url(../fonts/LuckiestGuy-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+
+*{
+    margin: 0;    
+    font-family: 'Open Sans';
+}
+
+p{
+    font-weight: 400;
+    font-size: 16px;
+}

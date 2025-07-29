@@ -1,0 +1,139 @@
+@import url(reset.css);
+
+header{
+    background-image: url(../images/header-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 459px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;    
+}
+
+header #text-banner{
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 757px;
+    gap: 24px;
+    align-items: center;
+}
+
+header #text-banner h1, header #text-banner p{
+    color: white;
+    text-align: center;
+}
+
+header #text-banner h1{
+    font-family: 'Luckiest Guy';
+    font-size: 56px;
+    font-weight: 400;
+    max-width: 313px;
+}
+
+header #button-banner{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+header #button-banner button{
+    max-height: 44px;
+    border-radius: 28px;
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+    padding: 11px 22px;
+}
+
+header #button-banner #button-download{
+    background-color: white;
+    color: #23272A;
+}
+
+header #button-banner #button-navegador{
+    color: white;
+    background-color: #23272A;
+}
+
+header #button-banner #button-download:hover{
+    background-color: rgba(255, 255, 255, 0.562);
+    color: black;
+}
+
+header #button-banner #button-navegador:hover{
+    color: white;
+    background-color: #23272a8a;
+}
+
+@media (max-width: 768px) {
+    header #text-banner{
+    max-width: 428px;
+    align-items:flex-start;
+    margin-top: 69px;
+    padding: 24px;
+    }
+
+    header #text-banner h1, header #text-banner p{
+    text-align: left;
+    }
+
+    header #text-banner h1{
+    font-size: 32px;
+    font-weight: 400;
+    max-width: 278px;
+    }
+
+    header #text-banner p{
+    max-width: 381px;
+    }
+
+    header #button-banner{
+    flex-direction: column;
+    width: 381px;
+    }
+}
+
+main section{
+    height: 448px;
+}
+
+main #section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px;
+}
+
+main #section-1 .container{
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    gap: 16px;
+}
+main #section-1 .container #text{
+    display: flex;
+    flex-direction: column;
+    max-width: 348px;
+}
+
+main #section-1 .container #text h1{
+    font-weight: 800;
+    font-size: 40px;
+    max-width: 329px;
+}
+
+main #section-1 .container #text h1{
+    font-weight: 800;
+    font-size: 40px;
+    max-width: 329px;
+}
+
+main #section-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F6F6;
+}
