@@ -1,0 +1,22 @@
+footer{
+    background-color: #23272A;
+    display: flex;
+    place-content: center;
+    max-width: 100vw;
+    height: 134px;
+}
+
+footer img{
+    width: 230px;
+}
+
+
+@media (max-width: 768px) {
+    footer{
+    height: 140px;
+}
+
+footer img{
+    width: 162px;
+}
+}

@@ -1,0 +1,34 @@
+main #section-2 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F6F6;
+    flex-direction: row;
+    gap: 16px;
+}
+
+main #section-2 .container #text-2{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 351px;
+    height: 212px;
+    gap: 16px;
+}
+
+
+@media (max-width: 768px) {
+    main #section-2 .container{
+        height: 507px;
+        padding: 40px 24px;
+        flex-direction: column-reverse;
+        gap: 27px;
+        place-items: center;
+    }
+
+    main #section-2 .container #text-2{
+        width: 378px;
+        gap: 27px;
+    }
+
+}

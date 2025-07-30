@@ -1,0 +1,50 @@
+main #section-4{
+    background-color: #F6F6F6;
+    height: 744px;
+    padding: 40px 0;
+}
+
+main #section-4 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+main #section-4 .container img{
+    width: 784px;
+}
+
+main #section-4 .container h1{
+    font-family: 'Luckiest Guy';
+    font-weight: 400;
+    width: 608px;
+    text-align: center;
+}
+
+main #section-4 .container p{
+    width: 802px;
+}
+
+
+@media (max-width: 768px) {
+    main #section-4 .container{
+        height: 560px;
+        padding: 40px 24px;
+        gap: 27px;
+    }
+    main #section-4 .container img{
+        width: 379px;
+    }
+
+    main #section-4 .container h1{
+        font-size: 32px;
+        width: 376px;
+        text-align: left;
+    }
+
+    main #section-4 .container p{
+        width: 378px;
+    }
+}

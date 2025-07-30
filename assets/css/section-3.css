@@ -1,0 +1,33 @@
+main #section-3 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 16px;
+}
+
+main #section-3 .container #text-3{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 351px;
+    height: 234px;
+    gap: 16px;
+}
+
+
+@media (max-width: 768px) {
+    main #section-3 .container{
+        height: 507px;
+        padding: 40px 24px;
+        flex-direction: column;
+        gap: 27px;
+        place-items: center;
+    }
+
+    main #section-3 .container #text-3{
+        width: 378px;
+        gap: 27px;
+    }
+
+}
